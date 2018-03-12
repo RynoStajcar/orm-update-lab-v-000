@@ -61,7 +61,7 @@ class Student
     id = row[2]
     name = row[0]
     grade = row[1]
-    student = self.new(name, gr
+    student = self.new(name, grade, id)
   end
 
 
