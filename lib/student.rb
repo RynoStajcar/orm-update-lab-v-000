@@ -19,6 +19,8 @@ class Student
       )
     SQL
 
+    DB[:conn].execute(sql)
+
   def attributes
     student = Student.new(name, grade)
   end
